@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans', Arial, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Merriweather', 'Times New Roman', monospace;
+  color: #cc0e00;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  max-width: 75px;
+  height: auto;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.header-links {
+  background-color: #cc0e00;
+  color: #ffffff;
+  padding: 10px;
+  margin-left: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 5px;
+}
+
+.header-links:hover {
+  background-color: #990a00;
+}
+
+.action-banner {
+  background-color: #cc0e00;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.action-banner h2 {
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: -5px;
+}
+
+.button-primary {
+  border: none;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  margin: 15px;
+  padding: 15px 30px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #999999;
+  border: 1px solid black;
+}
+
+.weekly-deal {
+  background-color: #cc0e00;
+  padding-top: 15px;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.weekly-deal a {
+  color: white;
+}
+
+.weekly-deal a img {
+  float: right;
+  max-width: 200px;
+}
+
+.weekly-deal a p {
+  margin-top: -10px;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.deal-title {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.price {
+  font-size: 45px;
+  font-family: 'Merriweather';
+  color: #000000;
+}
+
+.cents {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.conditions {
+  clear: right;
+  margin-bottom: -25px;
+  font-size: 12px;
+}
+
+.action-text {
+  position: absolute;
+  right: 25px;
+  bottom: 280px;
+  margin-bottom: -50px;
+  -webkit-transform: skew(0deg, -15deg);
+          transform: skew(0deg, -15deg);
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
